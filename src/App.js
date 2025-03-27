@@ -18,6 +18,7 @@ function App() {
       style={{
         display: "flex",
         justifyContent: "center",
+        flexDirection: "column",
         alignItems: "center",
         height: "100vh",
       }}
@@ -30,9 +31,18 @@ function App() {
           padding: "20px",
         }}
       >
-        <p style={{fontFamily: "Times New Roman", fontSize: "30px"}}>"{quote.quote}"</p>
+        <p style={{ fontFamily: "Times New Roman", fontSize: "30px" }}>
+          "{quote.quote}"
+        </p>
         <p>– {quote.by}</p>
-        <button onClick={handleNewQuote}>New Quote</button>
+      </div>
+      <div style={{ marginTop: "20px" }}>
+        <button
+          style={{ fontSize: "20px", padding: "10px" }}
+          onClick={handleNewQuote}
+        >
+          Next Quote
+        </button>
       </div>
     </div>
   );
