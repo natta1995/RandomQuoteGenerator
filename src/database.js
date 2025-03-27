@@ -29,6 +29,26 @@
         quote: "Keep your face always toward the sunshine—and shadows will fall behind you.",
         by: "Walt Whitman"
     },
+    {
+        id: 7, 
+        quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        by: "Winston Churchill"
+    },
+    {
+        id: 8, 
+        quote: "For every minute you are angry you lose sixty seconds of happiness.",
+        by: "Ralph Waldo Emerson"
+    },
+    {
+        id: 9, 
+        quote: "In the end, it’s not the years in your life that count. It’s the life in your years.",
+        by: "Abraham Lincoln"
+    },
+    {
+        id: 10, 
+        quote: "The only thing we have to fear is fear itself.",
+        by: "Franklin D. Roosevelt"
+    },
  ];
 
  export default quotes;
